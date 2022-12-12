@@ -23,7 +23,7 @@ header{
 
  
  
- 
+ /* body*/
 
  
 
@@ -74,17 +74,31 @@ section{
 }
 
 
-  
+/* footer*/ 
 
 footer{
     height: 100px;
-    background-color: gray;
+    background-color: black;
     width: 100%;
     position: fixed;
     display: flex;
     align-items: center;
     justify-content:space-between;
-    padding: 20px;
+    padding-left: 20px;
+    color: white;
     
     
+}
+.endin{
+    color: red;
+    text-align: center;
+    height: 100px;
+    width: 120px;
+    background-color: grey;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 15px;
+
+
 }
