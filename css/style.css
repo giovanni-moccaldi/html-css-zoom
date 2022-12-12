@@ -52,7 +52,7 @@ span{
     position: relative;
     color: white;
     bottom: 15px;
-    right: 50px;
+    right: 60px;
     
     
     
@@ -61,5 +61,6 @@ footer{
     height: 100px;
     background-color: gray;
     width: 100%;
+    position: fixed;
     
 }
