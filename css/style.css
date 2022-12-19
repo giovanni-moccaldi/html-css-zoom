@@ -83,24 +83,28 @@ section{
 
 /* footer*/ 
 
+.left{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+}
 footer{
     height: 100px;
     background-color: black;
     width: 100%;
     position: fixed;
     display: flex;
+    justify-content:space-between;
     
-    padding-left: 20px;
     color: white;
     
     
     
-} 
-.end{
-    display: flex;
     
-   
-}
+} 
+
+    
 
 .endin{
     color: red;
@@ -108,25 +112,18 @@ footer{
     height: 100px;
     width: 120px;
     background-color: grey;
-    
-    margin: 0;
+    justify-items: center;
     padding: 15px;
+    text-align: end;
+
    
     
 
 
 }
-.left{
+
+
+.icon{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-    
-}
-.center{
-    display: flex;
-    flex-direction: column;
-    
-    
 }
