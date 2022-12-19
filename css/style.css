@@ -1,6 +1,6 @@
 img{
     height: 100px;
-    width: 250px;
+    width: 200px;
 }
 body{
     
@@ -17,7 +17,7 @@ header{
  align-items: center;
  justify-content: flex-end;
  padding: 20px;
- gap:10px
+ gap:5px;
  
 
 
@@ -37,17 +37,21 @@ header{
 }
 .container{
     
-  height:calc(100vh - 180px); 
+  height:calc(100vh - 180px );
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  
+  
   
   
     
 
 }
-span{
+.container span{
     color: white;
     width: 15px;
     height: 10px;
@@ -59,8 +63,10 @@ section{
 
 #logo{
     position: relative;
-    right: 250px;
+    right: 203px;
     bottom: 5px;
+    text-align: center;
+    
 }
 
 
@@ -69,7 +75,8 @@ section{
 .cards{
     position: relative;
     color:black;
-    
+    display: flex;
+    display: inline-block;
        
 }
 
@@ -82,23 +89,44 @@ footer{
     width: 100%;
     position: fixed;
     display: flex;
-    align-items: center;
-    justify-content:space-between;
+    
     padding-left: 20px;
     color: white;
     
     
+    
+} 
+.end{
+    display: flex;
+    
+   
 }
+
 .endin{
     color: red;
-    text-align: center;
+    display: flex;
     height: 100px;
     width: 120px;
     background-color: grey;
-    align-items: center;
-    display: flex;
+    
     margin: 0;
     padding: 15px;
+   
+    
 
 
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    
+    
 }
